@@ -1,33 +1,33 @@
 @font-face {
-    font-family: 'ProtestStrike';
-    src: url('/font/ProtestStrike-Regular.ttf') format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
+  font-family: 'ProtestStrike';
+  src: url('/font/ProtestStrike-Regular.ttf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 body {
-    margin: 0;
-    font-family: 'ProtestStrike', sans-serif;
-  }
-  
-  header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #262b49;
-    color: white;
-  }
-  
-  .header-item {
-    flex: 1;
-    text-align: center;
-  }
+  margin: 0;
+  font-family: 'ProtestStrike', sans-serif;
+}
 
-  img {
-    width: 200px;
-  }
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #262b49;
+  color: white;
+}
 
-  a {
-    color: white;
-    text-decoration: none;
-    }
+.header-item {
+  flex: 1;
+  text-align: center;
+}
+
+img {
+  width: 200px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  }
