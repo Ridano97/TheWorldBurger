@@ -10,7 +10,7 @@ body {
     font-family: 'ProtestStrike', sans-serif;
   }
   
-  footer {
+  header {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -18,7 +18,7 @@ body {
     color: white;
   }
   
-  .footer-item {
+  .header-item {
     flex: 1;
     text-align: center;
   }
@@ -31,3 +31,48 @@ body {
     color: white;
     text-decoration: none;
     }
+
+    #burger_eclaté {
+        width: 500px;
+        margin: 70px;
+      }
+    
+    
+    
+      main {
+        width: 100%;
+        margin: 20px auto;
+        background-color: #44506a;
+        padding: 0px;
+        margin: 0 ;
+    }
+    
+    .content {
+        display: flex;
+    }
+    
+    .cell {
+        flex: 1;
+        display: flex; 
+        align-items: center; 
+        padding: 10px;
+    }
+    
+    #box {
+        border: 2px black solid;
+        padding: 0px 100px ;
+        margin: 70px 70px 0px;
+        background-color: aliceblue;
+        
+    }
+    
+    p {
+        font-size: 30px
+    }
+
+      #tableau {
+            width: 1300px;
+            height: 500px;
+            display: block;
+            margin: auto;
+      }
