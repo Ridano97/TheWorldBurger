@@ -76,3 +76,35 @@ body {
             display: block;
             margin: auto;
       }
+
+
+
+
+footer {
+  background-color: #5f9787;
+}
+.infos_contact{
+  color: white;
+  font-weight: 10px;
+  font-weight: 12px;
+}
+.image_reseauxsociauxfb {
+  width: 100px;
+}
+
+.image_reseauxsociauxinsta {
+  width: 75px;
+  padding-right: 25px;
+}
+
+.image_reseauxsociauxtwitter {
+  width: 45px;
+}
+
+#block_image_reseauxsociaux {
+  display: flex;
+  align-items: center;
+}
+/* .image_reseauxsociauxfb , .image_reseauxsociauxinsta , .image_reseauxsociauxtwitter {
+  
+} */
