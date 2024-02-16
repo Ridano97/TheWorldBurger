@@ -23,9 +23,9 @@ body {
     text-align: center;
   }
 
-  img {
+  /* img {
     width: 200px;
-  }
+  } */
 
   a {
     color: white;
@@ -66,9 +66,9 @@ body {
         
     }
     
-    p {
+    /* p {
         font-size: 30px
-    }
+    } */
 
       #tableau {
             width: 1300px;
@@ -78,10 +78,13 @@ body {
       }
 
 
-
-
 footer {
   background-color: #5f9787;
+  
+}
+
+#footer_fondvert {
+  max-width: 30%;
 }
 .infos_contact{
   color: white;
@@ -105,6 +108,15 @@ footer {
   display: flex;
   align-items: center;
 }
-/* .image_reseauxsociauxfb , .image_reseauxsociauxinsta , .image_reseauxsociauxtwitter {
-  
-} */
+
+#image_localisation {
+  width: 500px;
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+}
+
+#footer_content {
+  display: flex;
+  justify-content: space-around;
+}
