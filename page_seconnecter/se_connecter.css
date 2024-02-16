@@ -36,3 +36,72 @@ img {
     text-decoration: none;
     }
 
+
+    #block_imageburger {
+      width: 1200px;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+  }
+  
+   #world_burger {
+         width: 60%;
+         box-shadow: black 2px 2px 2px 2px;
+         
+      }
+
+#identification_instagram {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+
+}
+
+#block_content_arobase {
+  width: 1200px;
+  margin: auto;
+  padding-left: 475px;
+  padding-top: 10px;
+}
+
+#block_input_connexion {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+#login_seconnecter {
+  display: flex;
+  justify-content: center;
+  color: white;
+  
+}
+
+label {
+  width: 500px;
+  margin: auto;
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+input  {
+  padding: 5px;
+  border-radius: 3px;
+  margin: 10px;
+  border: 3px rgb(226, 226, 135) solid;
+}
+
+#button_submit {
+  font-family: ProtestStrike;
+  color: white;
+  font-size: 20px;
+  background-color:#262b49;
+  border: white 3px solid;
+}
