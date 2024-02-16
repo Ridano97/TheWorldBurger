@@ -83,13 +83,11 @@ footer {
   
 }
 
-#footer_fondvert {
-  max-width: 30%;
-}
 .infos_contact{
   color: white;
   font-weight: 10px;
   font-weight: 12px;
+  text-align:center;
 }
 .image_reseauxsociauxfb {
   width: 100px;
