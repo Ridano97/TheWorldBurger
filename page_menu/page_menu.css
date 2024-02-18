@@ -22,10 +22,10 @@ body {
     flex: 1;
     text-align: center;
   }
-
+/* 
   img {
     width: 200px;
-  }
+  } */
 
   a {
     color: white;
@@ -36,14 +36,14 @@ body {
     width: 500px;
     margin: 70px;
   }
-
+/* 
   main {
     width: 100%;
     margin: 20px auto;
     background-color: #44506a;
     padding: 0px;
     margin: 0 ;
-}
+} */
 
 .content {
     display: flex;
@@ -64,9 +64,9 @@ body {
     
 }
 
-img {
+/* img {
     width: 200px;
-  }
+  } */
 
 #ingredients {
     font-size: 30px
