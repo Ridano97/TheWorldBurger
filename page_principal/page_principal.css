@@ -115,7 +115,6 @@ body {
   display: flex;
   justify-content: space-around;
   background-color: #5f9787;
-
 }
 
 #footer_copyright {
@@ -123,5 +122,26 @@ body {
   justify-content: space-evenly;
   background-color: #262b49;
   color: white;
+}
+
+@media screen and (max-width:480px) {
+
+#footer_content {
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#image_localisation {
+  display: none;
   
+}
+
+  #footer_copyright {
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
