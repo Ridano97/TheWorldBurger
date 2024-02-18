@@ -78,10 +78,7 @@ body {
       }
 
 
-footer {
-  background-color: #5f9787;
-  
-}
+
 
 .infos_contact{
   color: white;
@@ -117,4 +114,14 @@ footer {
 #footer_content {
   display: flex;
   justify-content: space-around;
+  background-color: #5f9787;
+
+}
+
+#footer_copyright {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #262b49;
+  color: white;
+  
 }
