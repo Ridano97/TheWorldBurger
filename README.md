@@ -15,4 +15,4 @@ Il se vendra au prix de 50€
 Nos formules sont : formule S : 1 viande et 3 ingrédients , formule M: 2 viandes et  4 ingrédients.
 formule L: 3 viandes et 6 ingrédients , formule XL (big burger à l”américaine): 4 viandes et 8 ingrédients.
 
-Sur le site vous auriez aussi la possiblite de reserver une table via un form.
+Sur le site vous auriez aussi la possiblite de reserver une table via un formulaire.
