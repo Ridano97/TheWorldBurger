@@ -4,10 +4,12 @@
   font-weight: normal;
   font-style: normal;
 }
-*{
-  margin: 0px;
-  padding: 0px;
+
+* {
+  margin: 0;
+  padding: 0;
 }
+
 body {
   margin: 0;
   font-family: 'ProtestStrike', sans-serif;
@@ -21,25 +23,31 @@ header {
   color: white;
 }
 
-#logo {
-  width: 130px;
-  margin: 10px 0px 0px;
+img {
+  width: 100%;
+  height: 100%;
 }
 
 .navbar {
   width: 90%;
 }
 
+#image_contener {
+  width: 40%;
+}
+
 .navbar ol {
   display: flex;
   justify-content: space-between;
   margin: 0;
-  padding: 0px 0px 20px;
+  padding: 0 0 20px;
   list-style: none;
 }
 
 .header-item {
   text-align: center;
+  width: 130px;
+  margin: 10px 0 0;
 }
 
 a {
@@ -47,60 +55,91 @@ a {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 480px) {
-  .navbar ol {
-    flex-direction: column; 
-  }
-
-  .header-item {
-    margin-right: 0; 
-    margin-bottom: 10px; 
-  }
-}
-  
-#burger_eclaté {
-    width: 500px;
-    margin: 70px;
-  }
-
-  main {
-    width: 100%;
-    margin: 20px auto;
-    background-color: #44506a;
-    padding: 0px;
-    margin: 0 ;
+main {
+  width: 100%;
+  margin: 20px auto;
+  background-color: #44506a;
+  padding: 0;
 }
 
 .content {
-    display: flex;
+  display: flex;
 }
 
 .cell {
-    flex: 1;
-    display: flex; 
-    align-items: center; 
-    padding: 10px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: 10px;
 }
 
 #box {
-    border: 2px black solid;
-    padding: 0px 100px ;
-    margin: 70px 70px 0px;
-    background-color: aliceblue;
-    
+  border: 2px black solid;
+  padding: 100px;
+  margin: 70px auto 0;
+  background-color: aliceblue;
+  width: 60%;
 }
 
-img {
-    width: 200px;
-  }
+#burger_eclaté {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
 
 #ingredients {
-    font-size: 30px
+  font-size: 30px;
 }
 
-  #tableau {
-        width: 1300px;
-        height: 500px;
-        display: block;
-        margin: auto;
+#tableau {
+  width: 1300px;
+  height: 500px;
+  display: block;
+  margin: 50px auto;
+}
+
+@media only screen and (max-width: 480px) {
+  .navbar ol {
+    flex-direction: column;
+    align-items: center;
   }
+
+  .header-item {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  #burger_eclaté {
+    width: 70%;
+  }
+
+  h1, p {
+    font-size: 15px;
+  }
+
+  .cell {
+    flex-direction: column;
+  }
+
+  main {
+    margin: 10px 0;
+  }
+
+  #image_contener {
+    width: 100%;
+  }
+
+  #box {
+    padding: 0 20px;
+    margin: 20px 0;
+    width: 100%;
+  }
+
+  #tableau {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+  }
+}
