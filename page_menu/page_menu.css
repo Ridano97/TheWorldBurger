@@ -1,36 +1,62 @@
 @font-face {
-    font-family: 'ProtestStrike';
-    src: url('/font/ProtestStrike-Regular.ttf') format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
-
+  font-family: 'ProtestStrike';
+  src: url('/font/ProtestStrike-Regular.ttf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+}
 body {
-    margin: 0;
-    font-family: 'ProtestStrike', sans-serif;
+  margin: 0;
+  font-family: 'ProtestStrike', sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #262b49;
+  color: white;
+}
+
+#logo {
+  width: 130px;
+  margin: 10px 0px 0px;
+}
+
+.navbar {
+  width: 90%;
+}
+
+.navbar ol {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0px 0px 20px;
+  list-style: none;
+}
+
+.header-item {
+  text-align: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 480px) {
+  .navbar ol {
+    flex-direction: column; 
   }
-  
-  header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #262b49;
-    color: white;
-  }
-  
+
   .header-item {
-    flex: 1;
-    text-align: center;
+    margin-right: 0; 
+    margin-bottom: 10px; 
   }
-
-  img {
-    width: 200px;
-  }
-
-  a {
-    color: white;
-    text-decoration: none;
-    }
+}
   
 #burger_eclaté {
     width: 500px;
