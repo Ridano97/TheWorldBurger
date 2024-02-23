@@ -46,3 +46,14 @@ a {
   color: white;
   text-decoration: none;
 }
+
+@media only screen and (max-width: 480px) {
+  .navbar ol {
+    flex-direction: column; 
+  }
+
+  .header-item {
+    margin-right: 0; 
+    margin-bottom: 10px; 
+  }
+}
