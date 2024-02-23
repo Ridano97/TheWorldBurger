@@ -142,7 +142,7 @@ body {
 
 #mini_jumbotron_or {
     width: 100%;
-    height: 200px;
+    height: 110px;
     position: relative;
     padding-left: 20px;
   
@@ -168,3 +168,118 @@ body {
     padding: 50px;
     font-style: italic;
 }
+
+#notre_histoire {
+    padding-bottom : 50px;
+}
+
+#formule_menu {
+    border-top: black 5px solid;
+    background-color: #717A8E;
+    text-align: center;
+    padding: 30px;
+    
+
+}
+
+#presentation_formule {
+    color: white;
+    padding: 30px 100px;
+    font-size: 30px;
+    font-style: italic;
+    
+}
+
+h2 {
+    font-size: 70px;
+    font-family: 'ProtestStrike', sans-serif;
+    color: white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+}
+
+#block_formulaire {
+    display: flex;
+    justify-content: center;
+}
+
+.image_formulaire {
+    height: 300px;
+    width: 300px;
+    margin: 15px;
+    box-shadow: black 3px 3px 2px 2px;
+
+}
+
+.image_formulaire:hover {
+  height: 400px;
+  width: 400px;
+  cursor: pointer;
+}
+
+.card {
+  border-radius: 16px;
+  margin: 0 auto;
+  width: 1200px;
+  max-width: 100%;
+  min-height: 500px;
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  background-size: cover;
+}
+
+.info {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background-color: #C6A02C;
+  transform: translateY(100%)
+    translateY(-88px)
+    translateZ(0);
+  transition: transform 0.3s ease-out;
+}
+
+.info:before {
+  z-index: -1;
+  display: block; 
+  position: absolute;
+  content: ' ';
+  width: 100%; height: 100%;
+  overflow: hidden;
+  background-image: url(../dossier-image/Ryan_1.webp);
+  background-size: cover;
+  opacity: 0.25;
+  transform: translateY(-100%)
+    translateY(88px)
+    translateZ(0);
+  transition: transform 0.3s ease-out;
+}
+
+.title {
+  margin: 0;
+  padding: 24px;
+  font-size: 40px;
+  line-height: 1;
+  color: white
+}
+
+.description {
+  margin: 0;
+  padding: 0 24px 24px;
+  font-size: 19px;
+  line-height: 1.5;
+  font-family: RobotoItalic;
+  text-align: center;
+  color: white;
+}
+
+.card:hover .info,
+.card:hover .info:before {
+  transform: translateY(0) translateZ(0);
+}
+
+h1 {
+  font-family: 'ProtestStrike', sans-serif;
+  text-align: center;
+}
+
