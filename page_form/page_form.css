@@ -50,10 +50,6 @@ header {
     text-align: center;
 }
   
-a {
-    color: white;
-    text-decoration: none;
-} 
 
 #contenu_de_mon_main{
     background-color: #262b49;
@@ -62,6 +58,7 @@ a {
 #image_logo {
     width: 150px;
 }
+
 
 #image_restaurant {
     min-width: 100%;
@@ -190,11 +187,10 @@ textarea {
         flex-direction: column;
         align-items: center;
       }
+    
+    .footer_text{
+        font-size:10px ;
+        padding-bottom: 7px;
+    }
 
-      #footer_copyright {
-        max-width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
   }
