@@ -4,7 +4,10 @@
   font-weight: normal;
   font-style: normal;
 }
-
+*{
+  margin: 0px;
+  padding: 0px;
+}
 body {
   margin: 0;
   font-family: 'ProtestStrike', sans-serif;
@@ -12,22 +15,34 @@ body {
 
 header {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
   align-items: center;
   background-color: #262b49;
   color: white;
 }
 
-.header-item {
-  flex: 1;
-  text-align: center;
+#logo {
+  width: 130px;
+  margin: 10px 0px 0px;
 }
 
- #logo {
-  width: 200px;
+.navbar {
+  width: 90%;
+}
+
+.navbar ol {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0px 0px 20px;
+  list-style: none;
+}
+
+.header-item {
+  text-align: center;
 }
 
 a {
   color: white;
   text-decoration: none;
-  }
+}
