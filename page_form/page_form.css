@@ -19,14 +19,49 @@ a {
     text-decoration: none;
     color: white;
 }
-header {
+/* header {
     max-width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #262b49;
     color: white;
+  } */
+
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #262b49;
+    color: white;
   }
+  
+  #logo {
+    width: 100px;
+    height: 100px;
+    margin: 10px 0px 0px;
+  }
+  
+  .navbar {
+    width: 90%;
+  }
+  
+  .navbar ol {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0px 0px 20px;
+    list-style: none;
+  }
+  
+  .header-item {
+    text-align: center;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  } 
 
 #contenu_de_mon_main{
     background-color: #262b49;
