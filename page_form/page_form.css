@@ -44,6 +44,7 @@ header {
 }
 
 #form_reservation {
+    margin-top: 50px;
     padding: 70px 20px 100px 20px;
     background-color: rgba(0, 0, 0, 0.6);
     
@@ -84,7 +85,10 @@ textarea {
     width: 100px;
     text-align: center;
     background-color: rgb(214, 214, 214);
-
+    padding: 7px;
+    border-radius: 7px;
+    font-family: 'ProtestStrike', sans-serif;
+    font-size: 15px;
 }
 
 #footer_copyright {
