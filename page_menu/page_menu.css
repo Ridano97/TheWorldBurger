@@ -13,6 +13,7 @@
 body {
   margin: 0;
   font-family: 'ProtestStrike', sans-serif;
+  background-color: #44506a;
 }
 
 header {
@@ -92,17 +93,29 @@ main {
   font-size: 30px;
 }
 
+span{
+  text-decoration:underline ;
+  font-weight: bold;
+}
+
 #tableau {
   width: 1300px;
   height: 500px;
   display: block;
   margin: 50px auto;
 }
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 @media only screen and (max-width: 480px) {
+  
+  header{
+    width: 490px;
+  }
+  
   .navbar ol {
     flex-direction: column;
     align-items: center;
+    padding: 0px;
   }
 
   .header-item {
@@ -112,10 +125,13 @@ main {
 
   #burger_eclaté {
     width: 70%;
+    padding: 0px 0 0 25px;
   }
 
   h1, p {
     font-size: 15px;
+    margin: 10px;
+    text-align: center;
   }
 
   .cell {
@@ -140,6 +156,10 @@ main {
     width: 100%;
     max-width: 100%;
     height: auto;
-    margin: 20px 0;
+    margin: 20px 5px;
+  }
+
+  #ingredients{
+    margin: 0px 0 0 10px;
   }
 }
