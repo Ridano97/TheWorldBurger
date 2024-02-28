@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'ProtestStrike';
+    font-family: ProtestStrike;
     src: url('/font/ProtestStrike-Regular.ttf') format('woff');
     font-weight: normal;
     font-style: normal;
@@ -279,7 +279,37 @@ h2 {
 }
 
 h1 {
-  font-family: 'ProtestStrike', sans-serif;
+  font-family: ProtestStrike, sans-serif;
   text-align: center;
 }
 
+#ad {
+  background-color: rgba(218, 203, 68, 0.715);
+  position: fixed;
+  bottom: 0;
+  width: 50%;
+  display: flex;
+  z-index: 1;
+  margin: 50px;
+  border-radius: 5px;
+  font-family: RobotoItalic ;
+}
+
+#ad p {
+  width: 98%;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+#ad span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+#ad span:hover {
+  background-color: rgba(170, 158, 49, 0.715) ;
+  cursor: pointer;
+}
