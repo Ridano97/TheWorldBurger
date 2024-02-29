@@ -11,51 +11,10 @@
 }
 
 body {
-<<<<<<< HEAD
   margin: 0;
   font-family: 'ProtestStrike', sans-serif;
   background-color: #44506a;
 }
-=======
-    margin: 0;
-    font-family: 'ProtestStrike', sans-serif;
-  }
-  
-  header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #262b49;
-    color: white;
-  }
-  
-  .header-item {
-    flex: 1;
-    text-align: center;
-  }
-/* 
-  img {
-    width: 200px;
-  } */
-
-  a {
-    color: white;
-    text-decoration: none;
-    }
-  
-#burger_eclaté {
-    width: 500px;
-    margin: 70px;
-  }
-/* 
-  main {
-    width: 100%;
-    margin: 20px auto;
-    background-color: #44506a;
-    padding: 0px;
-    margin: 0 ;
-} */
->>>>>>> page_form
 
 header {
   display: flex;
@@ -65,18 +24,9 @@ header {
   color: white;
 }
 
-<<<<<<< HEAD
 img {
   width: 100%;
   height: 100%;
-=======
-/* img {
-    width: 200px;
-  } */
-
-#ingredients {
-    font-size: 30px
->>>>>>> page_form
 }
 
 .navbar {
@@ -170,11 +120,8 @@ h1 {
   justify-content: space-evenly;
   background-color: #262b49;
   color: white;
-<<<<<<< HEAD
-=======
   padding: 30px;
 
->>>>>>> page_menu
 }
 
 /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
@@ -211,14 +158,6 @@ h1 {
     margin: 10px;
   }
 
-  #ingredients {
-    font-size: 15px;
-}
-
-.titre_ingredients {
-  margin-top: 20px;
-}
-
   .cell {
     flex-direction: column;
   }
@@ -244,18 +183,6 @@ h1 {
     margin: 20px 5px;
   }
 
-<<<<<<< HEAD
-  #footer_copyright {
-    max-width: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #262b49;
-    color: white;
-    font-family: 'ProtestStrike', sans-serif;
-  }
-
-=======
   #ingredients{
     margin: 0px 0 0 10px;
     font-size: 15px;
@@ -273,5 +200,4 @@ h1 {
     padding-bottom: 7px;
 }
 
->>>>>>> page_menu
 }
