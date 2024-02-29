@@ -91,6 +91,7 @@ header {
     align-items: center;
     width: 500px;
     height: 400px;
+    cursor: pointer;
 }
 
 #inputs_reservation input {
@@ -114,6 +115,11 @@ textarea {
     border-radius: 7px;
     font-family: 'ProtestStrike', sans-serif;
     font-size: 15px;
+    cursor: pointer;
+}
+
+#button_envoyer:hover{
+    filter: opacity(90%);
 }
 
 #footer_copyright {
