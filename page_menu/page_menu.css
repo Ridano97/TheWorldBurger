@@ -76,14 +76,14 @@ main {
 
 #box {
   border: 2px black solid;
-  padding: 100px;
+  padding: 50px 100px;
   margin: 70px auto 0;
   background-color: aliceblue;
   width: 60%;
 }
 
 #burger_eclaté {
-  width: 100%;
+  width: 90%;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -93,9 +93,19 @@ main {
   font-size: 30px;
 }
 
-span{
+.titre_ingredients{
   text-decoration:underline ;
   font-weight: bold;
+  margin: 10px;
+}
+
+.detail_ingredients {
+  margin: 0px 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 80px;
 }
 
 #tableau {
