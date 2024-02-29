@@ -114,6 +114,14 @@ h1 {
   display: block;
   margin: 50px auto;
 }
+
+#footer_copyright {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #262b49;
+  color: white;
+}
+
 /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 @media only screen and (max-width: 480px) {
@@ -141,8 +149,15 @@ h1 {
   h1, p {
     font-size: 15px;
     margin: 10px;
-    text-align: center;
   }
+
+  #ingredients {
+    font-size: 15px;
+}
+
+.titre_ingredients {
+  margin-top: 20px;
+}
 
   .cell {
     flex-direction: column;
@@ -169,7 +184,14 @@ h1 {
     margin: 20px 5px;
   }
 
-  #ingredients{
-    margin: 0px 0 0 10px;
+  #footer_copyright {
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #262b49;
+    color: white;
+    font-family: 'ProtestStrike', sans-serif;
   }
+
 }
