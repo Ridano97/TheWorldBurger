@@ -48,36 +48,12 @@ a {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 480px) {
-  .navbar ol {
-    flex-direction: column; 
-  }
-
-@font-face {
-  font-family: RobotoItalic ;
-  src: url(../font/Roboto-Italic.ttf);
-}
-
-}
-
 
 body {
     margin: 0;
   }
-  
-  header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #262b49;
-    color: white;
-    font-family: 'ProtestStrike', sans-serif;
-  }
-  
-  .header-item {
-    margin-right: 0; 
-    margin-bottom: 10px; 
-  }
+
+
 #jumbotron {
   height : 1000px ;
   background-image: url(../dossier-image/freepikcompany\ 2.png);
@@ -309,4 +285,93 @@ h1 {
 #ad span:hover {
   background-color: rgba(170, 158, 49, 0.715) ;
   cursor: pointer;
+  }
+
+
+.infos_contact{
+  color: white;
+  font-weight: 10px;
+  font-weight: 12px;
+  text-align:center;
+}
+.image_reseauxsociauxfb {
+  width: 100px;
+}
+
+.image_reseauxsociauxinsta {
+  width: 75px;
+  padding-right: 25px;
+}
+
+.image_reseauxsociauxtwitter {
+  width: 45px;
+}
+
+#block_image_reseauxsociaux {
+  display: flex;
+  align-items: center;
+}
+
+#image_localisation {
+  width: 500px;
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+}
+
+#footer_content {
+  display: flex;
+  justify-content: space-around;
+  background-color: #5f9787;
+}
+
+#footer_copyright {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #262b49;
+  color: white;
+}
+
+@media screen and (max-width:480px) {
+
+  .navbar ol {
+    flex-direction: column; 
+  }
+
+@font-face {
+  font-family: RobotoItalic ;
+  src: url(../font/Roboto-Italic.ttf);
+}
+
+
+body {
+    margin: 0;
+  }
+
+#footer_content {
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#image_localisation {
+  display: none;
+  
+}
+
+  #footer_copyright {
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #262b49;
+    color: white;
+    font-family: 'ProtestStrike', sans-serif;
+  }
+  
+  .header-item {
+    margin-right: 0; 
+    margin-bottom: 10px; 
+  }
 }
