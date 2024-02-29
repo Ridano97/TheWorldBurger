@@ -4,6 +4,15 @@
   font-weight: normal;
   font-style: normal;
 }
+<<<<<<< HEAD
+=======
+
+@font-face {
+  font-family: RobotoItalic ;
+  src: url(../font/Roboto-Italic.ttf);
+}
+
+>>>>>>> develop
 *{
   margin: 0px;
   padding: 0px;
@@ -47,11 +56,314 @@ a {
   text-decoration: none;
 }
 
+<<<<<<< HEAD
 @media only screen and (max-width: 480px) {
+=======
+
+#jumbotron {
+  height : 1000px ;
+  background-image: url(../dossier-image/freepikcompany\ 2.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 120px;
+}
+
+#image_container_or  {
+  height: 400px;
+  width: 600px;
+  margin: 0 auto;
+  animation-name: stretch;
+  animation-duration: 2s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  scroll-behavior: smooth;
+}
+@keyframes stretch {
+  0% {
+    transform: scale(.3);
+  }
+  50% {
+  }
+  100% {
+    transform: scale(1.5);
+  }
+}
+
+#presentation_produitphare {
+    background-color: #44506a;
+    width: 100%;
+    padding-top: 50px ;
+
+}
+
+#block_container_peinture_or {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    
+
+}
+
+#mini_jumbotron_or {
+    width: 100%;
+    height: 110px;
+    position: relative;
+    padding-left: 20px;
+  
+
+}
+
+#prix_produit_phare {
+    position: absolute;
+    color: white;
+    font-size: 90px;
+    font-family: 'ProtestStrike', sans-serif;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 3px;
+}
+
+#block_content_text {
+    margin: 10px;
+}
+
+#slogan_attractif {
+    color: white;
+    text-align: center;
+    padding: 50px;
+    font-style: italic;
+}
+
+#notre_histoire {
+    padding-bottom : 50px;
+}
+
+#formule_menu {
+    border-top: black 5px solid;
+    background-color: #717A8E;
+    text-align: center;
+    padding: 30px;
+    
+
+}
+
+#presentation_formule {
+    color: white;
+    padding: 30px 100px;
+    font-size: 30px;
+    font-style: italic;
+    
+}
+
+h2 {
+    font-size: 70px;
+    font-family: 'ProtestStrike', sans-serif;
+    color: white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+}
+
+#block_formulaire {
+    display: flex;
+    justify-content: center;
+}
+
+.image_formulaire {
+    height: 300px;
+    width: 300px;
+    margin: 15px;
+    box-shadow: black 3px 3px 2px 2px;
+
+}
+
+.image_formulaire:hover {
+  height: 400px;
+  width: 400px;
+  cursor: pointer;
+}
+
+.card {
+  border-radius: 16px;
+  margin: 0 auto;
+  width: 1200px;
+  max-width: 100%;
+  min-height: 500px;
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  background-size: cover;
+}
+
+.info {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background-color: #C6A02C;
+  transform: translateY(100%)
+    translateY(-88px)
+    translateZ(0);
+  transition: transform 0.3s ease-out;
+}
+
+.info:before {
+  z-index: -1;
+  display: block; 
+  position: absolute;
+  content: ' ';
+  width: 100%; height: 100%;
+  overflow: hidden;
+  background-image: url(../dossier-image/Ryan_1.webp);
+  background-size: cover;
+  opacity: 0.25;
+  transform: translateY(-100%)
+    translateY(88px)
+    translateZ(0);
+  transition: transform 0.3s ease-out;
+}
+
+.title {
+  margin: 0;
+  padding: 24px;
+  font-size: 40px;
+  line-height: 1;
+  color: white
+}
+
+.description {
+  margin: 0;
+  padding: 0 24px 24px;
+  font-size: 19px;
+  line-height: 1.5;
+  font-family: RobotoItalic;
+  text-align: center;
+  color: white;
+}
+
+.card:hover .info,
+.card:hover .info:before {
+  transform: translateY(0) translateZ(0);
+}
+
+h1 {
+  font-family: ProtestStrike, sans-serif;
+  text-align: center;
+}
+
+#ad {
+  background-color: rgba(218, 203, 68, 0.715);
+  position: fixed;
+  bottom: 0;
+  width: 50%;
+  display: flex;
+  z-index: 1;
+  margin: 50px;
+  border-radius: 5px;
+  font-family: RobotoItalic ;
+}
+
+#ad p {
+  width: 98%;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-family: 'ProtestStrike';
+  font-size: 30px;
+}
+
+#ad span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+#ad span:hover {
+  background-color: rgba(170, 158, 49, 0.715) ;
+  cursor: pointer;
+}
+
+.infos_contact{
+  color: white;
+  font-weight: 10px;
+  font-weight: 12px;
+  text-align:center;
+}
+.image_reseauxsociauxfb {
+  width: 100px;
+}
+
+.image_reseauxsociauxinsta {
+  width: 75px;
+  padding-right: 25px;
+}
+
+.image_reseauxsociauxtwitter {
+  width: 45px;
+}
+
+#block_image_reseauxsociaux {
+  display: flex;
+  align-items: center;
+}
+
+#image_localisation {
+  width: 500px;
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+}
+
+#footer_content {
+  display: flex;
+  justify-content: space-around;
+  background-color: #5f9787;
+}
+
+#footer_copyright {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #262b49;
+  color: white;
+}
+
+@media screen and (max-width:480px) {
+
+>>>>>>> develop
   .navbar ol {
     flex-direction: column; 
   }
 
+<<<<<<< HEAD
+=======
+#footer_content {
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#image_localisation {
+  display: none;
+  
+}
+
+  #footer_copyright {
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #262b49;
+    color: white;
+    font-family: 'ProtestStrike', sans-serif;
+  }
+  
+>>>>>>> develop
   .header-item {
     margin-right: 0; 
     margin-bottom: 10px; 
