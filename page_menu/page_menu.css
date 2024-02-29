@@ -148,10 +148,14 @@ h1 {
     padding: 0px 0 0 25px;
   }
 
-  h1, p {
+h1 {
+  font-size: 20px;
+  margin: 15px 0px 20px;
+}
+
+   p {
     font-size: 15px;
     margin: 10px;
-    text-align: center;
   }
 
   .cell {
@@ -181,6 +185,7 @@ h1 {
 
   #ingredients{
     margin: 0px 0 0 10px;
+    font-size: 15px;
   }
 
   #footer_copyright {
