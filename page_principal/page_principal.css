@@ -343,7 +343,7 @@ h1 {
   }
 
 #footer_content {
-  max-width: 80%;
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -354,7 +354,7 @@ h1 {
 }
 
   #footer_copyright {
-    max-width: 80%;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
