@@ -5,6 +5,11 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: RobotoItalic ;
+  src: url(../font/Roboto-Italic.ttf);
+}
+
 *{
   margin: 0px;
   padding: 0px;
@@ -49,11 +54,6 @@ a {
 }
 
 
-body {
-    margin: 0;
-  }
-
-
 #jumbotron {
   height : 1000px ;
   background-image: url(../dossier-image/freepikcompany\ 2.png);
@@ -64,11 +64,6 @@ body {
   justify-content: flex-start;
   align-items: center;
   padding-left: 120px;
-}
-
-#image_container_or {
-  height: 400px;
-  width: 600px;
 }
 
 #image_container_or  {
@@ -285,8 +280,7 @@ h1 {
 #ad span:hover {
   background-color: rgba(170, 158, 49, 0.715) ;
   cursor: pointer;
-  }
-
+}
 
 .infos_contact{
   color: white;
@@ -336,16 +330,6 @@ h1 {
 
   .navbar ol {
     flex-direction: column; 
-  }
-
-@font-face {
-  font-family: RobotoItalic ;
-  src: url(../font/Roboto-Italic.ttf);
-}
-
-
-body {
-    margin: 0;
   }
 
 #footer_content {
