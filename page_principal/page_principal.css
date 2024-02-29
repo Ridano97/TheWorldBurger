@@ -11,6 +11,7 @@
 body {
   margin: 0;
   font-family: 'ProtestStrike', sans-serif;
+  background-color: black;
 }
 
 header {
@@ -19,6 +20,15 @@ header {
   align-items: center;
   background-color: #262b49;
   color: white;
+}
+
+.nav_header:hover {
+  cursor: pointer;
+  font-size: 20px;
+  transition-timing-function: ease-in-out;
+  transition-property: all;
+  transition-duration: 0.5s;
+
 }
 
 #logo {
@@ -126,10 +136,12 @@ a {
     text-align: center;
     padding: 50px;
     font-style: italic;
+    font-size: 20px;
 }
 
 #notre_histoire {
-    padding-bottom : 50px;
+    background-color: #262b49;
+    padding: 20px;
 }
 
 #formule_menu {
@@ -166,7 +178,7 @@ h2 {
     height: 300px;
     width: 300px;
     margin: 15px;
-    box-shadow: black 3px 3px 2px 2px;
+    box-shadow: rgb(81, 81, 81) 4px 4px 3px 3px;
 
 }
 
@@ -174,6 +186,9 @@ h2 {
   height: 400px;
   width: 400px;
   cursor: pointer;
+  transition-property : all;
+  transition-duration:2s;
+  transition-timing-function:ease;
 }
 
 .card {
@@ -318,6 +333,7 @@ h1 {
   justify-content: space-evenly;
   background-color: #262b49;
   color: white;
+  padding: 15px;
 }
 
 @media screen and (max-width:480px) {
@@ -351,18 +367,15 @@ h1 {
     margin-right: 0; 
     margin-bottom: 10px; 
   }
-<<<<<<< HEAD
-}
-=======
-
-  /* img {
-    width: 200px;
-  } */
-
+  
   a {
     color: white;
     text-decoration: none;
     }
-
-    
->>>>>>> page_form
+  }
+  
+  #accompagnement {
+    font-style: italic;
+    font-size: 15px;
+    color: white;
+  }
