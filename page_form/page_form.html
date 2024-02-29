@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="./page_form.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <body>
+        <header>     
+            <div class="header-item">
+                <img src="../dossier-image/The world burger (4).png" alt="Votre Image" id="logo">
+            </div>
+            <div class="navbar">
+                <ol>
+                    <li class="header-item"><a href="../page_menu/page_menu.html" target="_blank">Menu</a></li>
+                    <li class="header-item">Contact</li>
+                    <li class="header-item">Reserver</li>
+                    <li class="header-item">Se Connecter</li>
+                </ol>
+            </div>
+        </header>
+        <main id="contenu_de_mon_main">
+            <!-- <div id="page_reservation"> -->
+                <div id="block_image_restaurant">
+                    <img src="../dossier-image/Untitled design (51) 2.png" id="image_restaurant">
+                </div> 
+                <div id="form_reservation">  
+                    <div id="titre_reservation">
+                        <h1>Réservation</h1>
+                    </div>   
+                    <form id="inputs_reservation">
+                        <input type="email" name="" id="input_email" placeholder="Email*" required>
+                        <input type="datetime-local" name="" id="input_date" required>
+                        <input type="number" name="" id="input_nombre" placeholder="Nombre de personnes*" required min="1">
+                        <textarea name="" id="textarea_commentaire" cols="30" rows="50" placeholder="Un anniversaire, une sortie entre collégues? Dites nous tout!">
+                        </textarea>
+                        <button id="button_envoyer">Envoyer</button>
+                    </form>
+        </main>
+        <footer>
+            <div id="footer_copyright">
+                <p class="footer_text">&copyThe World Burger</p>
+                <p class="footer_text">Mentions Légales</p>
+                <p class="footer_text">Politiques de confidencialité</p>
+            </div>
+        </footer>
+    </body>
+</html>
