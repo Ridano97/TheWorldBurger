@@ -4,15 +4,6 @@
   font-weight: normal;
   font-style: normal;
 }
-<<<<<<< HEAD
-=======
-
-@font-face {
-  font-family: RobotoItalic ;
-  src: url(../font/Roboto-Italic.ttf);
-}
-
->>>>>>> develop
 *{
   margin: 0px;
   padding: 0px;
@@ -55,10 +46,6 @@ a {
   color: white;
   text-decoration: none;
 }
-
-<<<<<<< HEAD
-@media only screen and (max-width: 480px) {
-=======
 
 #jumbotron {
   height : 1000px ;
@@ -334,13 +321,10 @@ h1 {
 
 @media screen and (max-width:480px) {
 
->>>>>>> develop
   .navbar ol {
     flex-direction: column; 
   }
 
-<<<<<<< HEAD
-=======
 #footer_content {
   max-width: 80%;
   display: flex;
@@ -363,7 +347,6 @@ h1 {
     font-family: 'ProtestStrike', sans-serif;
   }
   
->>>>>>> develop
   .header-item {
     margin-right: 0; 
     margin-bottom: 10px; 
