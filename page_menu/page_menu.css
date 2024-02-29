@@ -170,6 +170,11 @@ h1 {
   justify-content: space-evenly;
   background-color: #262b49;
   color: white;
+<<<<<<< HEAD
+=======
+  padding: 30px;
+
+>>>>>>> page_menu
 }
 
 /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
@@ -196,7 +201,12 @@ h1 {
     padding: 0px 0 0 25px;
   }
 
-  h1, p {
+h1 {
+  font-size: 20px;
+  margin: 15px 0px 20px;
+}
+
+   p {
     font-size: 15px;
     margin: 10px;
   }
@@ -234,6 +244,7 @@ h1 {
     margin: 20px 5px;
   }
 
+<<<<<<< HEAD
   #footer_copyright {
     max-width: 80%;
     display: flex;
@@ -244,4 +255,23 @@ h1 {
     font-family: 'ProtestStrike', sans-serif;
   }
 
+=======
+  #ingredients{
+    margin: 0px 0 0 10px;
+    font-size: 15px;
+  }
+
+  #footer_copyright {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.footer_text{
+    font-size:10px ;
+    padding-bottom: 7px;
+}
+
+>>>>>>> page_menu
 }
