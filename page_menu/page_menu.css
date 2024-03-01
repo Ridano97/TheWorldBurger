@@ -33,6 +33,15 @@ header {
   width: 90%;
 }
 
+.nav_header:hover {
+  cursor: pointer;
+  font-size: 20px;
+  transition-timing-function: ease-in-out;
+  transition-property: all;
+  transition-duration: 0.5s;
+
+}
+
 #image_contener {
   width: 40%;
 }
