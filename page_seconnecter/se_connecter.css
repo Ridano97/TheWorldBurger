@@ -111,8 +111,15 @@ input  {
   font-family: ProtestStrike;
   color: white;
   font-size: 20px;
+  padding: 5px;
   background-color:#262b49;
   border: white 3px solid;
+  margin-bottom: 10px;
+}
+
+#button_submit:hover {
+  background-color: #44506A;
+  cursor: pointer;
 }
 
 
