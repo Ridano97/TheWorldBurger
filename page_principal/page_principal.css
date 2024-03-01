@@ -320,14 +320,14 @@ h1 {
 
 #image_localisation {
   width: 500px;
-  height: 250px;
+  height: 260px;
   display: flex;
   flex-direction: row;
 }
 
-#image_localisation_ {
+#image_localisation_google {
   width: 586px;
-  height: 250px;
+  height: 265px;
 }
 
 #footer_content {
