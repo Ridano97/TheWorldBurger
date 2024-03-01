@@ -323,6 +323,11 @@ h1 {
   flex-direction: row;
 }
 
+#image_localisation_ {
+  width: 586px;
+  height: 250px;
+}
+
 #footer_content {
   display: flex;
   justify-content: space-around;
