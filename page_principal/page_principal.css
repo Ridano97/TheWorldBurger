@@ -293,22 +293,24 @@ h1 {
 
 .infos_contact{
   color: white;
-  font-weight: 10px;
-  font-weight: 12px;
+  /* font-weight: 10px; */
+  font-weight: 20px;
   text-align:center;
   padding: 15px;
+  font-size: 20px;
 }
 .image_reseauxsociauxfb {
-  width: 100px;
+  width: 120px;
 }
 
 .image_reseauxsociauxinsta {
-  width: 75px;
+  width: 80px;
   padding-right: 25px;
 }
 
 .image_reseauxsociauxtwitter {
-  width: 45px;
+  width: 50px;
+  border-radius: 3px;
 }
 
 #block_image_reseauxsociaux {
