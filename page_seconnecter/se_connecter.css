@@ -40,6 +40,10 @@ img {
     cursor: pointer;
     font-weight: bolder;
     font-size: 25px;
+    color: #D5B868;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+    transition-duration: 0.5s;
   }
 
     #block_imageburger {
