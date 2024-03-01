@@ -342,6 +342,49 @@ h1 {
     flex-direction: column; 
   }
 
+
+  #jumbotron {
+    width: 500px;
+    height: 500px;
+  }
+
+  #mini_jumbotron_or {
+    height: 100px ;
+    width: 500px ;
+  }
+
+  #image_container_or {
+   width: 200px;
+   height: 200px;
+    
+  }
+
+  #prix_produit_phare {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 45px;
+
+  }
+
+  #block_formulaire {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  #ad {
+    width: 200px;
+    height: 50px;
+  }
+
+  #ad p {
+    font-size: 13px;
+  }
+
+
 #footer_content {
   max-width: 100%;
   display: flex;
