@@ -58,6 +58,10 @@ header {
     transition-duration: 0.5s;
     color: #D5B868;
   }
+
+  a:hover { 
+    color: #D5B868;
+  }
   
 
 #contenu_de_mon_main{
